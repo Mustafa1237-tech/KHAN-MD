@@ -125,7 +125,7 @@ const port = process.env.PORT || 9090;
 ├─ 📢 *Join Channel:*  
 │     https://whatsapp.com/channel/0029VbAqZNoDDmFSGN0sgx3L 
 ├─ 🌟 *Star the Repo:*  
-│    https://github.com/JawadYT36/jawad-MD  
+│     https://github.com/Mustafa1237-tech/KHAN-MD
 ╰─🚀 *Powered by MUSTAFATechX*`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/5fmglo.jpg` }, caption: up })
   
