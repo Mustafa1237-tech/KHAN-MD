@@ -1,6 +1,6 @@
-name: khan-md
+jname: mustafa-md
 services:
-  - name: khan-md-service
+  - name: mustafa-md-service
     type: web
     ports:
       - 5000
