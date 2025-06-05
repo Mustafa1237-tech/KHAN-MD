@@ -44,7 +44,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['923427582273']
+  const ownerNumber = ['923116609742']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -113,22 +113,22 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `╭─〔 *🤖 KHAN-MD BOT* 〕  
+  let up = `╭─〔 *🤖 MUSTAFA-MD BOT* 〕  
 ├─▸ *Ultra Super Fast Powerfull ⚠️*  
-│     *World Best BOT KHAN-MD* 
+│     *World Best BOT MUSTAFA-MD* 
 ╰─➤ *Your Smart WhatsApp Bot is Ready To use 🍁!*  
 
-- *🖤 Thank You for Choosing KHAN-MD!* 
+- *🖤 Thank You for Choosing MUSTAFA-MD!* 
 
 ╭──〔 🔗 *Information* 〕  
 ├─ 🧩 *Prefix:* = ${prefix}
 ├─ 📢 *Join Channel:*  
-│    https://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j  
+│     https://whatsapp.com/channel/0029VbAqZNoDDmFSGN0sgx3L 
 ├─ 🌟 *Star the Repo:*  
-│    https://github.com/JawadYT36/KHAN-MD  
-╰─🚀 *Powered by JawadTechX*`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/7zfdcq.jpg` }, caption: up })
-  }
+│    https://github.com/JawadYT36/jawad-MD  
+╰─🚀 *Powered by MUSTAFATechX*`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/5fmglo.jpg` }, caption: up })
+  
   })
   conn.ev.on('creds.update', saveCreds)
 
@@ -173,7 +173,7 @@ const port = process.env.PORT || 9090;
         text: randomEmoji,
         key: mek.key,
       } 
-    }, { statusJidList: [mek.key.participant, jawadlike] });
+    }, { statusJidList: [mek.key.participant, mustafalike] });
   }                       
   if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REPLY === "true"){
   const user = mek.key.participant
@@ -215,11 +215,11 @@ const port = process.env.PORT || 9090;
   }
 
   const udp = botNumber.split('@')[0];
-    const jawadop = ('923470027813', '923191089077', '923427582273');
+    const jawadop = ('923116609742', 923163954173'', '92 348 1689189');
     
     const ownerFilev2 = JSON.parse(fs.readFileSync('./lib/sudo.json', 'utf-8'));  
     
-    let isCreator = [udp, ...jawadop, config.DEV + '@s.whatsapp.net', ...ownerFilev2]
+    let isCreator = [udp, ...Mustafadop, config.DEV + '@s.whatsapp.net', ...ownerFilev2]
     .map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net') 
     .includes(mek.sender);
 	  
@@ -783,7 +783,7 @@ if (isBanned) return; // Ignore banned users completely
   }
   
   app.get("/", (req, res) => {
-  res.send("KHAN MD STARTED ✅");
+  res.send("MUSTAFA MD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
